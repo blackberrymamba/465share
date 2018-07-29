@@ -1,0 +1,69 @@
+::selection {
+	background-color: #E13300;
+	color: white;
+}
+
+::-moz-selection {
+	background-color: #E13300;
+	color: white;
+}
+
+.navbar {
+	padding: 0.5em;
+	border-bottom: 2px solid #f2f2f2;
+	margin-bottom: 2em;
+}
+
+/* Formularz upload */
+
+#UploadForm {
+	padding: 2em;
+	text-align: center;
+}
+
+#UploadForm.has-advanced-upload {
+	outline: 2px dashed black;
+	outline-offset: -10px;
+}
+
+#UploadForm.has-advanced-upload .dragdrop {
+	display: inline;
+}
+
+#UploadForm.is-dragover {
+	background-color: grey;
+}
+
+#UploadProgress {
+	visibility: hidden;
+}
+
+#UploadButton {
+	position: fixed;
+	bottom: 1.5em;
+	right: 1.5em;
+}
+
+.btn.circle {
+	border-radius: 50%;
+	border-radius: 50px;
+}
+
+.alert {
+	margin: 1em;
+	padding: 0.5em;
+}
+
+.alert p {
+	margin: 0;
+}
+
+.alert.alert-error {
+	background-color: #e85600;
+	color: white;
+}
+
+.alert.alert-success {
+	background-color: #32b643;
+	color: white;
+}
